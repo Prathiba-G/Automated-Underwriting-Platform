@@ -1,0 +1,22 @@
+[
+  {
+    "appraisalId": "A001",
+    "propertyType": "Townhouse",
+    "address": "456 Oak Avenue, Rivertown, USA",
+    "yearBuilt": 2008,
+    "squareFootage": 1750,
+    "estimatedValue": 295000,
+    "hazards": ["Foundation cracks", "Cracked tiles"],
+    "document": "appraisal001.pdf"
+  },
+  {
+    "appraisalId": "A002",
+    "propertyType": "Single-Family",
+    "address": "789 Pine Street, Lakeview, USA",
+    "yearBuilt": 1995,
+    "squareFootage": 2200,
+    "estimatedValue": 310000,
+    "hazards": ["Water damage", "Roof leakage"],
+    "document": "appraisal002.pdf"
+  }
+]

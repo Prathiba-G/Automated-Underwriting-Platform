@@ -1,0 +1,38 @@
+{
+  "exclusions": [
+    "Flood zone without mitigation",
+    "Unpermitted construction",
+    "Electrical violations",
+    "Fire hazard proximity",
+    "Expired appraisal document"
+  ],
+  "coverageLimits": {
+    "Townhouse": 400000,
+    "Single-Family": 600000,
+    "Condo": 350000,
+    "Rural": 300000,
+    "Commercial": 1000000
+  },
+  "hazardWeights": {
+    "Foundation cracks": 0.3,
+    "Water damage": 0.4,
+    "Roof leakage": 0.2,
+    "Electrical violations": 0.5,
+    "Fire hazard": 0.6
+  },
+  "riskThresholds": {
+    "low": 0.0,
+    "moderate": 0.3,
+    "high": 0.6
+  },
+  "manualReviewRules": [
+    "Estimated value exceeds coverage limit",
+    "Hazard score exceeds high threshold",
+    "Missing appraisal metadata",
+    "Property built before 1980"
+  ],
+  "waitingPeriods": {
+    "New Construction": "30 days",
+    "Renovated Property": "15 days"
+  }
+}
